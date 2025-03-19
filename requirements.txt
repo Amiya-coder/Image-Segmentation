@@ -1,0 +1,15 @@
+cv2
+numpy as np
+matplotlib.pyplot as plt
+os
+skimage.filters import frangi
+skimage import morphology
+skimage.morphology import skeletonize
+
+* OpenCV (Open Source Computer Vision Library) is used for real-time computer vision.
+* NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+* The os module provides a way of using operating system dependent functionality.
+* The Frangi filter is used to detect tubular structures in images, part of the scikit-image library.
+* Scikit-image morphology module includes operations on binary images such as erosion, dilation, opening, closing, and structuring elements.
+* Skeletonization reduces binary objects to 1-pixel wide representations.
