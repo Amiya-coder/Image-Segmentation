@@ -1,0 +1,9 @@
+Data Descriptions:
+Fundus images are medical images that capture the eye's interior surface, including the retina, optic disk, and blood vessels. The accurate segmentation of blood vessels and optic disks from these images is important in various fields of ophthalmology, such as diagnosing diabetic retinopathy, glaucoma, and hypertension.
+
+Task:
+Given a set of fundus images. Our goal is to extract the blood vessels using basic image-processing techniques. No machine-learning algorithm is used; simply the point-operation and/or image filtering. Lastly compute the Dice score.
+* The Dice score (also known as the Dice coefficient or Dice similarity coefficient) is a metric used to measure the similarity between two sets. In the context of image segmentation, it is commonly used to compare the similarity between a predicted mask and a ground truth mask.
+
+
+
